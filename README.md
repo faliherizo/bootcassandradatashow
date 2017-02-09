@@ -26,3 +26,19 @@ brew info cassandra
 launchctl load /usr/local/opt/cassandra/homebrew.mxcl.cassandra.plist 
 
 
+
+4) Execute and create Table votes:
+cqlsh
+
+
+
+CREATE KEYSPACE voting
+    WITH REPLICATION = {
+        'class' : 'SimpleStrategy',
+        'replication_factor' : 1
+    };
+ 
+USE voting;
+ 
+CREATE TABLE votes (name text PRIMARY KEY, votes int);
+
