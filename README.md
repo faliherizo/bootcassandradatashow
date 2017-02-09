@@ -9,8 +9,10 @@ To start in this part :
 
 sudo chown -R $(whoami) /Users/your_user_name/Library/Caches/Homebrew/
 
-brew install cassandra
+brew install cassandra 
+
 brew install python
+
 pip install cql
 
 
