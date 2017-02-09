@@ -1,4 +1,4 @@
-package com.example;
+package fr.web3lance.com.bigdata.model;
 
 /**
  * Created by Faliherizo on 09/02/2017.

@@ -1,4 +1,4 @@
-package com.example;
+package fr.web3lance.com.bigdata;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

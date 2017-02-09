@@ -1,6 +1,7 @@
-package com.example;
+package fr.web3lance.com.bigdata;
 
 import com.datastax.driver.core.Session;
+import fr.web3lance.com.bigdata.dao.CassandraSessionManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

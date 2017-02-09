@@ -1,4 +1,4 @@
-package com.example;
+package fr.web3lance.com.bigdata.controllers;
 
 /**
  * Created by Faliherizo on 09/02/2017.
@@ -6,6 +6,7 @@ package com.example;
 import com.datastax.driver.core.ResultSet;
 import com.datastax.driver.core.Row;
 import com.datastax.driver.core.Session;
+import fr.web3lance.com.bigdata.model.Vote;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Controller;

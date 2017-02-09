@@ -1,4 +1,4 @@
-package fr.web3lance.com.bigdata;
+package fr.web3lance.com.bigdata.dao;
 
 import com.datastax.driver.core.Cluster;
 import com.datastax.driver.core.Session;
